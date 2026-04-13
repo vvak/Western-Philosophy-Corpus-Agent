@@ -1,0 +1,40 @@
+license_statuses:
+  public_domain_us:
+    include_by_default: true
+    description: "Public domain in the United States. As of 2026, works published in 1930 or earlier are generally public domain, subject to edition and jurisdiction review."
+
+  public_domain_or_gutenberg_terms:
+    include_by_default: true
+    description: "Project Gutenberg text that is public domain or distributed under Project Gutenberg terms. Preserve source and boilerplate handling decisions."
+
+  cc0:
+    include_by_default: true
+    description: "Creative Commons Zero/public-domain dedication."
+
+  cc_by:
+    include_by_default: "review"
+    description: "Creative Commons Attribution. Include only with attribution tracking and downstream distribution review."
+
+  cc_by_sa:
+    include_by_default: "review"
+    description: "Creative Commons Attribution-ShareAlike. Requires downstream share-alike/attribution review."
+
+  noncommercial:
+    include_by_default: false
+    description: "Non-commercial restriction. Exclude from commercial training unless separately approved."
+
+  no_derivatives:
+    include_by_default: false
+    description: "No-derivatives restriction. Exclude unless legal review explicitly approves the intended use."
+
+  per_item_review_required:
+    include_by_default: false
+    description: "Do not ingest until source, edition, publication year, and license/public-domain rationale are recorded."
+
+  reject_modern_copyright:
+    include_by_default: false
+    description: "Likely copyrighted modern text or translation."
+
+  reject_license_unclear:
+    include_by_default: false
+    description: "Rights or source terms are unclear."

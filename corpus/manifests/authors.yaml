@@ -1,0 +1,147 @@
+authors:
+  ancient:
+    - Thales
+    - Anaximander
+    - Anaximenes
+    - Pythagoras
+    - Xenophanes
+    - Heraclitus
+    - Parmenides
+    - Empedocles
+    - Zeno of Elea
+    - Gorgias
+    - Protagoras
+    - Democritus
+    - Socrates
+    - Antisthenes
+    - Aristippus
+    - Xenophon
+    - Plato
+    - Aristotle
+    - Theophrastus
+    - Pyrrho
+    - Epicurus
+    - Zeno of Citium
+    - Chrysippus
+    - Carneades
+    - Cicero
+    - Lucretius
+    - Seneca
+    - Plutarch
+    - Epictetus
+    - Marcus Aurelius
+    - Sextus Empiricus
+    - Plotinus
+    - Porphyry
+    - Iamblichus
+    - Augustine
+    - Proclus
+    - Boethius
+
+  medieval:
+    - Pseudo-Dionysius
+    - John Philoponus
+    - Isidore of Seville
+    - John of Damascus
+    - Alcuin
+    - Al-Kindi
+    - John Scotus Eriugena
+    - Al-Farabi
+    - Saadia Gaon
+    - Avicenna
+    - Ibn Gabirol
+    - Anselm
+    - Al-Ghazali
+    - Peter Abelard
+    - Peter Lombard
+    - Ibn Tufail
+    - Averroes
+    - Maimonides
+    - Suhrawardi
+    - Ibn Arabi
+    - Albertus Magnus
+    - Roger Bacon
+    - Thomas Aquinas
+    - Bonaventure
+    - Ramon Llull
+    - Meister Eckhart
+    - Duns Scotus
+    - Marsilius of Padua
+    - William of Ockham
+    - Jean Buridan
+    - Nicole Oresme
+    - Ibn Khaldun
+    - Nicholas of Cusa
+
+  renaissance_early_modern:
+    - Lorenzo Valla
+    - Marsilio Ficino
+    - Pico della Mirandola
+    - Erasmus
+    - Niccolo Machiavelli
+    - Thomas More
+    - Martin Luther
+    - Michel de Montaigne
+    - Giordano Bruno
+    - Francis Bacon
+    - Galileo Galilei
+    - Thomas Hobbes
+    - Rene Descartes
+    - Blaise Pascal
+    - Baruch Spinoza
+    - John Locke
+    - Nicolas Malebranche
+    - Gottfried Wilhelm Leibniz
+    - Giambattista Vico
+    - George Berkeley
+    - Montesquieu
+    - Voltaire
+    - David Hume
+    - Jean-Jacques Rousseau
+    - Denis Diderot
+    - Adam Smith
+    - Thomas Reid
+    - Immanuel Kant
+    - Mary Wollstonecraft
+
+  nineteenth_century:
+    - Jeremy Bentham
+    - Johann Gottlieb Fichte
+    - Friedrich Schelling
+    - Georg Wilhelm Friedrich Hegel
+    - Arthur Schopenhauer
+    - Auguste Comte
+    - Ludwig Feuerbach
+    - Alexis de Tocqueville
+    - Ralph Waldo Emerson
+    - Soren Kierkegaard
+    - Max Stirner
+    - Karl Marx
+    - Friedrich Engels
+    - John Stuart Mill
+    - Henry David Thoreau
+    - Herbert Spencer
+    - Charles Sanders Peirce
+    - William James
+    - Friedrich Nietzsche
+    - Henri Bergson
+    - Edmund Husserl
+
+  early_twentieth_public_domain_candidates:
+    - Bertrand Russell
+    - John Dewey
+    - George Santayana
+    - G. E. Moore
+    - Alfred North Whitehead
+    - Ludwig Wittgenstein
+    - Martin Buber
+    - Rudolf Steiner
+    - Benedetto Croce
+    - Giovanni Gentile
+    - Oswald Spengler
+    - Moritz Schlick
+    - Otto Neurath
+    - Ernst Cassirer
+    - Miguel de Unamuno
+    - Jose Ortega y Gasset
+    - Jacques Maritain

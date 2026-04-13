@@ -1,0 +1,53 @@
+sources:
+  project_gutenberg:
+    priority: 1
+    role: "Clean public-domain ebook source for primary works and older secondary works."
+    base_url: "https://www.gutenberg.org/"
+    acquisition_methods:
+      - "catalog_search"
+      - "rdf_catalog"
+      - "plain_text_download"
+      - "epub_download"
+    default_license_status: "public_domain_or_gutenberg_terms"
+    notes: "Track edition and remove Project Gutenberg boilerplate in normalized text."
+
+  standard_ebooks:
+    priority: 1
+    role: "Curated public-domain editions with cleaner typography and metadata."
+    base_url: "https://standardebooks.org/"
+    acquisition_methods:
+      - "catalog_search"
+      - "epub_download"
+    default_license_status: "public_domain_us"
+    notes: "Prefer when a work exists here and the edition is appropriate."
+
+  internet_archive:
+    priority: 2
+    role: "Public-domain scans, OCR text, metadata, collected works, commentaries, and histories."
+    base_url: "https://archive.org/"
+    acquisition_methods:
+      - "advanced_search"
+      - "metadata_api"
+      - "files_api"
+    default_license_status: "per_item_review_required"
+    notes: "Use only public-domain or otherwise clearly reusable items. OCR requires quality checks."
+
+  hathitrust:
+    priority: 2
+    role: "Full-view public-domain records and large-scale bibliographic discovery."
+    base_url: "https://www.hathitrust.org/"
+    acquisition_methods:
+      - "catalog_search"
+      - "full_view_public_domain_review"
+    default_license_status: "per_item_review_required"
+    notes: "Confirm full-view/public-domain status and access terms before ingestion."
+
+  perseus:
+    priority: 3
+    role: "Classical Greek and Latin source texts and translations where license is clear."
+    base_url: "https://www.perseus.tufts.edu/"
+    acquisition_methods:
+      - "repository_review"
+      - "xml_download"
+    default_license_status: "per_collection_review_required"
+    notes: "Use only editions with explicit compatible licenses or public-domain status."

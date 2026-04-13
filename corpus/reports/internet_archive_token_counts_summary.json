@@ -1,0 +1,86 @@
+{
+  "by_author": {
+    "Anselm": 138147,
+    "Aristotle": 204949,
+    "Blaise Pascal": 205302,
+    "Cicero": 102598,
+    "Georg Wilhelm Friedrich Hegel": 530795,
+    "Gottfried Wilhelm Leibniz": 254267,
+    "Jeremy Bentham": 170284,
+    "Karl Marx": 548316,
+    "Plotinus": 87009,
+    "Thomas Aquinas": 255150
+  },
+  "by_language": {
+    "en": 2496817
+  },
+  "by_period": {
+    "ancient": 394556,
+    "medieval": 393297,
+    "nineteenth_century": 1249395,
+    "renaissance_early_modern": 459569
+  },
+  "by_quality_tier": {
+    "tier_1_canonical_primary": 2496817
+  },
+  "by_source": {
+    "internet_archive": 2496817
+  },
+  "documents": 13,
+  "tokenization": {
+    "add_special_tokens": false,
+    "backend": "huggingface_auto_processor",
+    "chat_template_applied": false,
+    "context_length": null,
+    "enable_thinking": null,
+    "model_id": "google/gemma-4-E2B-it",
+    "plain_text_tokenization": true,
+    "processor_revision": null,
+    "target_family": "gemma4",
+    "tokenizer": "huggingface_auto_processor:google/gemma-4-E2B-it",
+    "tokenizer_version": "5.5.3"
+  },
+  "top_10_works": [
+    [
+      "marx_capital",
+      548316
+    ],
+    [
+      "leibniz_monadology",
+      254267
+    ],
+    [
+      "pascal_pensees",
+      205302
+    ],
+    [
+      "aristotle_metaphysics",
+      204949
+    ],
+    [
+      "hegel_phenomenology_spirit",
+      189563
+    ],
+    [
+      "hegel_philosophy_right",
+      188606
+    ],
+    [
+      "bentham_morals_legislation",
+      170284
+    ],
+    [
+      "hegel_phenomenology_spirit",
+      152626
+    ],
+    [
+      "aquinas_summa_contra_gentiles",
+      149832
+    ],
+    [
+      "anselm_proslogion",
+      138147
+    ]
+  ],
+  "total_tokens": 2496817
+}

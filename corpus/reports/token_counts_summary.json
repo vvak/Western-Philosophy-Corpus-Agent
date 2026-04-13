@@ -1,0 +1,119 @@
+{
+  "by_author": {
+    "Adam Smith": 151398,
+    "Alfred North Whitehead": 106357,
+    "Aristotle": 321440,
+    "Arthur Schopenhauer": 728532,
+    "Augustine": 816760,
+    "Baruch Spinoza": 269641,
+    "Bertrand Russell": 169589,
+    "Boethius": 60747,
+    "Cicero": 282105,
+    "David Hume": 661785,
+    "Epictetus": 96553,
+    "Erasmus": 108592,
+    "Francis Bacon": 235279,
+    "Friedrich Nietzsche": 329482,
+    "Georg Wilhelm Friedrich Hegel": 389191,
+    "George Berkeley": 97828,
+    "George Santayana": 414710,
+    "Gottfried Wilhelm Leibniz": 252597,
+    "Henri Bergson": 217148,
+    "Immanuel Kant": 530290,
+    "Jean-Jacques Rousseau": 474645,
+    "John Dewey": 170018,
+    "John Locke": 427454,
+    "John Stuart Mill": 635572,
+    "Karl Marx and Friedrich Engels": 35444,
+    "Lucretius": 113996,
+    "Maimonides": 367951,
+    "Marcus Aurelius": 151005,
+    "Mary Wollstonecraft": 115846,
+    "Michel de Montaigne": 726385,
+    "Niccolo Machiavelli": 104783,
+    "Plato": 1321395,
+    "Rene Descartes": 109403,
+    "Seneca": 147931,
+    "Soren Kierkegaard": 113898,
+    "Thomas Aquinas": 3083657,
+    "Thomas Hobbes": 301408,
+    "Thomas More": 54797,
+    "William James": 334611,
+    "Xenophon": 103253
+  },
+  "by_language": {
+    "en": 15133476
+  },
+  "by_period": {
+    "ancient": 2537678,
+    "early_twentieth_public_domain_candidates": 1077822,
+    "late_antique": 877507,
+    "medieval": 3451608,
+    "nineteenth_century": 2566730,
+    "renaissance_early_modern": 4622131
+  },
+  "by_quality_tier": {
+    "tier_1_canonical_primary": 11911711,
+    "tier_2_major_primary": 3221765
+  },
+  "by_source": {
+    "project_gutenberg": 15133476
+  },
+  "documents": 89,
+  "tokenization": {
+    "add_special_tokens": false,
+    "backend": "huggingface_auto_processor",
+    "chat_template_applied": false,
+    "context_length": null,
+    "enable_thinking": null,
+    "model_id": "google/gemma-4-E2B-it",
+    "plain_text_tokenization": true,
+    "processor_revision": null,
+    "target_family": "gemma4",
+    "tokenizer": "huggingface_auto_processor:google/gemma-4-E2B-it",
+    "tokenizer_version": "5.5.3"
+  },
+  "top_10_works": [
+    [
+      "aquinas_summa_theologiae",
+      3083657
+    ],
+    [
+      "schopenhauer_world_will_representation",
+      728532
+    ],
+    [
+      "montaigne_essays",
+      726385
+    ],
+    [
+      "augustine_city_of_god",
+      668795
+    ],
+    [
+      "mill_logic",
+      533984
+    ],
+    [
+      "hume_treatise",
+      518331
+    ],
+    [
+      "plato_republic",
+      441349
+    ],
+    [
+      "santayana_life_reason",
+      414710
+    ],
+    [
+      "maimonides_guide_perplexed",
+      367951
+    ],
+    [
+      "locke_essay_human_understanding",
+      353246
+    ]
+  ],
+  "total_tokens": 15133476
+}

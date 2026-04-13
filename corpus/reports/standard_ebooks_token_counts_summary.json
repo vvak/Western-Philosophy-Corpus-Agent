@@ -1,0 +1,96 @@
+{
+  "by_author": {
+    "Adam Smith": 194055,
+    "Aristotle": 129845,
+    "Augustine": 586661,
+    "Bertrand Russell": 51052,
+    "Boethius": 58595,
+    "David Hume": 64331,
+    "Friedrich Nietzsche": 289215,
+    "Jean-Jacques Rousseau": 72791,
+    "John Dewey": 159107,
+    "John Locke": 125781,
+    "John Stuart Mill": 61342,
+    "Karl Marx and Friedrich Engels": 17498,
+    "Marcus Aurelius": 62568,
+    "Mary Wollstonecraft": 104292,
+    "Niccolo Machiavelli": 45490,
+    "Plato": 1623059,
+    "Thomas Hobbes": 261210,
+    "William James": 301178
+  },
+  "by_language": {
+    "en": 4208070
+  },
+  "by_period": {
+    "ancient": 1815472,
+    "early_twentieth_public_domain_candidates": 210159,
+    "late_antique": 645256,
+    "nineteenth_century": 669233,
+    "renaissance_early_modern": 867950
+  },
+  "by_quality_tier": {
+    "tier_1_canonical_primary": 3971422,
+    "tier_2_major_primary": 236648
+  },
+  "by_source": {
+    "standard_ebooks": 4208070
+  },
+  "documents": 21,
+  "tokenization": {
+    "add_special_tokens": false,
+    "backend": "huggingface_auto_processor",
+    "chat_template_applied": false,
+    "context_length": null,
+    "enable_thinking": null,
+    "model_id": "google/gemma-4-E2B-it",
+    "plain_text_tokenization": true,
+    "processor_revision": null,
+    "target_family": "gemma4",
+    "tokenizer": "huggingface_auto_processor:google/gemma-4-E2B-it",
+    "tokenizer_version": "5.5.3"
+  },
+  "top_10_works": [
+    [
+      "plato_dialogues",
+      1623059
+    ],
+    [
+      "augustine_city_of_god",
+      586661
+    ],
+    [
+      "hobbes_leviathan",
+      261210
+    ],
+    [
+      "william_james_varieties_religious_experience",
+      236648
+    ],
+    [
+      "smith_moral_sentiments",
+      194055
+    ],
+    [
+      "dewey_democracy_education",
+      159107
+    ],
+    [
+      "nietzsche_zarathustra",
+      136370
+    ],
+    [
+      "aristotle_nicomachean_ethics",
+      129845
+    ],
+    [
+      "locke_two_treatises",
+      125781
+    ],
+    [
+      "wollstonecraft_vindication_woman",
+      104292
+    ]
+  ],
+  "total_tokens": 4208070
+}

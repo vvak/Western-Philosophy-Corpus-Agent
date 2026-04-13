@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg-link
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+pyenv.cfg
+# venv created with `python3 -m venv .` (root-level venv directories)
+bin/
+lib/
+include/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Docker
+docker/data/
+
+# Corpus artifacts
+corpus/raw/**
+!corpus/raw/**/.gitkeep
+corpus/normalized/jsonl/*.jsonl
+corpus/normalized/text/**
+!corpus/normalized/text/.gitkeep
+
+# Large/generated reports
+corpus/reports/*.parquet
+corpus/reports/token_counts*.jsonl
