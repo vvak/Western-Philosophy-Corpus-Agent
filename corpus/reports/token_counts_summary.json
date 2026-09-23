@@ -1,65 +1,98 @@
 {
   "by_author": {
     "Adam Smith": 151398,
-    "Alfred North Whitehead": 106357,
-    "Aristotle": 321440,
-    "Arthur Schopenhauer": 728532,
+    "Alexis de Tocqueville": 557665,
+    "Alfred North Whitehead": 321510,
+    "Alfred North Whitehead and Bertrand Russell": 977,
+    "Aristotle": 517846,
+    "Arthur Schopenhauer": 941612,
+    "Auguste Comte": 171647,
     "Augustine": 816760,
     "Baruch Spinoza": 269641,
-    "Bertrand Russell": 169589,
+    "Benedetto Croce": 491641,
+    "Bertrand Russell": 1505918,
+    "Blaise Pascal": 209825,
     "Boethius": 60747,
-    "Cicero": 282105,
+    "Charles Sanders Peirce": 132747,
+    "Cicero": 383649,
     "David Hume": 661785,
     "Epictetus": 96553,
     "Erasmus": 108592,
-    "Francis Bacon": 235279,
-    "Friedrich Nietzsche": 329482,
+    "Ernst Cassirer": 34386,
+    "Francis Bacon": 256213,
+    "Franz Brentano": 92444,
+    "Friedrich Engels": 284747,
+    "Friedrich Nietzsche": 3641066,
+    "G. E. Moore": 287032,
     "Georg Wilhelm Friedrich Hegel": 389191,
-    "George Berkeley": 97828,
-    "George Santayana": 414710,
+    "George Berkeley": 133621,
+    "George Santayana": 1207338,
     "Gottfried Wilhelm Leibniz": 252597,
-    "Henri Bergson": 217148,
+    "Henri Bergson": 496015,
+    "Henry David Thoreau": 170486,
+    "Herbert Spencer": 337105,
     "Immanuel Kant": 530290,
     "Jean-Jacques Rousseau": 474645,
-    "John Dewey": 170018,
+    "John Dewey": 1499170,
+    "John Dewey and Evelyn Dewey": 85517,
+    "John Dewey and James Hayden Tufts": 288055,
     "John Locke": 427454,
-    "John Stuart Mill": 635572,
+    "John Stuart Mill": 975574,
+    "Jose Ortega y Gasset": 87447,
+    "Karl Marx": 170548,
     "Karl Marx and Friedrich Engels": 35444,
+    "Lev Shestov": 128834,
     "Lucretius": 113996,
+    "Ludwig Feuerbach": 209127,
+    "Ludwig Wittgenstein": 81675,
     "Maimonides": 367951,
     "Marcus Aurelius": 151005,
+    "Martin Luther": 61935,
     "Mary Wollstonecraft": 115846,
+    "Max Scheler": 148197,
     "Michel de Montaigne": 726385,
+    "Miguel de Unamuno": 1143881,
     "Niccolo Machiavelli": 104783,
-    "Plato": 1321395,
+    "Plato": 1771782,
+    "Ralph Waldo Emerson": 455014,
     "Rene Descartes": 109403,
     "Seneca": 147931,
-    "Soren Kierkegaard": 113898,
+    "Sigmund Freud": 2828842,
+    "Soren Kierkegaard": 227337,
+    "Theophrastus": 21470,
     "Thomas Aquinas": 3083657,
     "Thomas Hobbes": 301408,
     "Thomas More": 54797,
+    "Voltaire": 101708,
     "William James": 334611,
-    "Xenophon": 103253
+    "Xenophon": 287808
   },
   "by_language": {
-    "en": 15133476
+    "de": 2229598,
+    "en": 28335734,
+    "en; la": 101544,
+    "es": 979413,
+    "fi": 500488,
+    "fr": 305013,
+    "hu": 184491
   },
   "by_period": {
-    "ancient": 2537678,
-    "early_twentieth_public_domain_candidates": 1077822,
+    "ancient": 3492040,
+    "early_twentieth_public_domain_candidates": 10636435,
     "late_antique": 877507,
     "medieval": 3451608,
-    "nineteenth_century": 2566730,
-    "renaissance_early_modern": 4622131
+    "nineteenth_century": 9126365,
+    "renaissance_early_modern": 5052326
   },
   "by_quality_tier": {
-    "tier_1_canonical_primary": 11911711,
-    "tier_2_major_primary": 3221765
+    "tier_1_canonical_primary": 15163980,
+    "tier_2_major_primary": 14957967,
+    "tier_3_secondary": 2514334
   },
   "by_source": {
-    "project_gutenberg": 15133476
+    "project_gutenberg": 32636281
   },
-  "documents": 89,
+  "documents": 309,
   "tokenization": {
     "add_special_tokens": false,
     "backend": "huggingface_auto_processor",
@@ -79,12 +112,20 @@
       3083657
     ],
     [
+      "nietzsche_zarathustra",
+      870717
+    ],
+    [
       "schopenhauer_world_will_representation",
       728532
     ],
     [
       "montaigne_essays",
       726385
+    ],
+    [
+      "freud_interpretation_dreams",
+      680744
     ],
     [
       "augustine_city_of_god",
@@ -103,17 +144,9 @@
       441349
     ],
     [
-      "santayana_life_reason",
-      414710
-    ],
-    [
-      "maimonides_guide_perplexed",
-      367951
-    ],
-    [
-      "locke_essay_human_understanding",
-      353246
+      "tocqueville_democracy_america",
+      416104
     ]
   ],
-  "total_tokens": 15133476
+  "total_tokens": 32636281
 }

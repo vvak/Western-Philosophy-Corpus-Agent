@@ -1,0 +1,123 @@
+{
+  "by_author": {
+    "Alfred North Whitehead": 304936,
+    "Aristotle": 1004152,
+    "Auguste Comte": 600445,
+    "Augustine": 489808,
+    "Boethius": 323500,
+    "Bonaventure": 160256,
+    "Cicero": 1342663,
+    "Empedocles": 43211,
+    "Erasmus": 283517,
+    "Ernst Cassirer": 277105,
+    "Francis Bacon": 349077,
+    "Galileo Galilei": 149436,
+    "Georg Wilhelm Friedrich Hegel": 190558,
+    "George Berkeley": 225603,
+    "Giovanni Gentile": 131767,
+    "Henry David Thoreau": 13711,
+    "Heraclitus": 78940,
+    "Herbert Spencer": 595977,
+    "Ibn Gabirol": 72586,
+    "Isidore of Seville": 1401,
+    "Jacques Maritain": 63033,
+    "Jeremy Bentham": 244227,
+    "Johann Gottlieb Fichte": 540987,
+    "John Dewey": 189058,
+    "John Locke": 190142,
+    "John Stuart Mill": 86311,
+    "John of Damascus": 3169,
+    "Karl Marx": 20455,
+    "Lorenzo Valla": 105240,
+    "Maimonides": 110415,
+    "Marsilius of Padua": 471,
+    "Martin Luther": 384540,
+    "Moritz Schlick": 41962,
+    "Niccolo Machiavelli": 305219,
+    "Peter Lombard": 484,
+    "Plato": 489834,
+    "Plutarch": 630124,
+    "Porphyry": 385107,
+    "Proclus": 288019,
+    "Pseudo-Dionysius": 340230,
+    "Ralph Waldo Emerson": 73108,
+    "Ramon Llull": 3725,
+    "Rudolf Steiner": 16219,
+    "Seneca": 378224,
+    "Thomas Aquinas": 1433119,
+    "Thomas Hobbes": 292691,
+    "Thomas More": 163145,
+    "Voltaire": 115825,
+    "Xenophon": 1060697
+  },
+  "by_language": {
+    "en": 14594429
+  },
+  "by_period": {
+    "null": 14594429
+  },
+  "by_quality_tier": {
+    "tier_1_canonical_primary": 14259597,
+    "tier_4_ocr_expansion": 334832
+  },
+  "by_source": {
+    "internet_archive": 14594429
+  },
+  "documents": 80,
+  "tokenization": {
+    "add_special_tokens": false,
+    "backend": "huggingface_auto_processor",
+    "chat_template_applied": false,
+    "context_length": null,
+    "enable_thinking": null,
+    "model_id": "google/gemma-4-E2B-it",
+    "plain_text_tokenization": true,
+    "processor_revision": null,
+    "target_family": "gemma4",
+    "tokenizer": "huggingface_auto_processor:google/gemma-4-E2B-it",
+    "tokenizer_version": "5.5.3"
+  },
+  "top_10_works": [
+    [
+      "xenophon_oeconomicus",
+      805958
+    ],
+    [
+      "aquinas_de_veritate",
+      771688
+    ],
+    [
+      "aquinas_de_ente_essentia",
+      661431
+    ],
+    [
+      "plutarch_moralia",
+      630124
+    ],
+    [
+      "cicero_de_re_publica",
+      581335
+    ],
+    [
+      "comte_system_positive_polity",
+      396482
+    ],
+    [
+      "porphyry_isagoge",
+      385107
+    ],
+    [
+      "spencer_principles_psychology",
+      377107
+    ],
+    [
+      "cicero_de_fato",
+      330708
+    ],
+    [
+      "boethius_de_institutione_musica",
+      322714
+    ]
+  ],
+  "total_tokens": 14594429
+}

@@ -51,3 +51,9 @@ corpus/normalized/text/**
 # Large/generated reports
 corpus/reports/*.parquet
 corpus/reports/token_counts*.jsonl
+
+# Large full-text exports (same document text as the ignored normalized JSONL;
+# regenerable from corpus/normalized + manifest via scripts/export). Keep the
+# small metadata/summary/report artifacts tracked, not the bulk text.
+corpus/exports/training_text.jsonl
+corpus/training/pilot/train.jsonl

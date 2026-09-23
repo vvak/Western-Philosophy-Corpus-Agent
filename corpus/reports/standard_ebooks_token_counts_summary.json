@@ -3,15 +3,17 @@
     "Adam Smith": 194055,
     "Aristotle": 129845,
     "Augustine": 586661,
-    "Bertrand Russell": 51052,
+    "Bertrand Russell": 161174,
     "Boethius": 58595,
     "David Hume": 64331,
     "Friedrich Nietzsche": 289215,
+    "G. E. Moore": 110928,
     "Jean-Jacques Rousseau": 72791,
-    "John Dewey": 159107,
+    "John Dewey": 317127,
     "John Locke": 125781,
     "John Stuart Mill": 61342,
     "Karl Marx and Friedrich Engels": 17498,
+    "Ludwig Wittgenstein": 46060,
     "Marcus Aurelius": 62568,
     "Mary Wollstonecraft": 104292,
     "Niccolo Machiavelli": 45490,
@@ -20,23 +22,24 @@
     "William James": 301178
   },
   "by_language": {
-    "en": 4208070
+    "en": 4633200
   },
   "by_period": {
     "ancient": 1815472,
-    "early_twentieth_public_domain_candidates": 210159,
+    "early_twentieth_public_domain_candidates": 635289,
     "late_antique": 645256,
     "nineteenth_century": 669233,
     "renaissance_early_modern": 867950
   },
   "by_quality_tier": {
-    "tier_1_canonical_primary": 3971422,
-    "tier_2_major_primary": 236648
+    "tier_1_canonical_primary": 4224764,
+    "tier_2_major_primary": 363635,
+    "tier_3_secondary": 44801
   },
   "by_source": {
-    "standard_ebooks": 4208070
+    "standard_ebooks": 4633200
   },
-  "documents": 21,
+  "documents": 27,
   "tokenization": {
     "add_special_tokens": false,
     "backend": "huggingface_auto_processor",
@@ -88,9 +91,9 @@
       125781
     ],
     [
-      "wollstonecraft_vindication_woman",
-      104292
+      "moore_principia_ethica",
+      110928
     ]
   ],
-  "total_tokens": 4208070
+  "total_tokens": 4633200
 }

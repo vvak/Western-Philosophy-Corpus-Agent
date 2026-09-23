@@ -1,0 +1,22 @@
+{
+  "built_at_utc": "2026-09-22T22:49:18.873966+00:00",
+  "by_quality_tier": {
+    "tier_1_canonical_primary": 79,
+    "tier_2_major_primary": 33,
+    "tier_3_secondary": 54
+  },
+  "by_source": {
+    "internet_archive": 34,
+    "lane_b": 27,
+    "project_gutenberg": 82,
+    "standard_ebooks": 23
+  },
+  "character_count": 37103089,
+  "max_tokens": 10000000,
+  "output": "corpus/training/pilot/train.jsonl",
+  "records": 166,
+  "source": "corpus/exports/training_text.jsonl",
+  "target_tokens": 9000000,
+  "token_count": 9009647,
+  "token_counts": "corpus/exports/training_text_token_counts.jsonl"
+}

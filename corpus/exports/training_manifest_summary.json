@@ -1,0 +1,38 @@
+{
+  "built_at_utc": "2026-09-22T22:49:15.560761+00:00",
+  "by_quality_tier": {
+    "tier_1_canonical_primary": 222,
+    "tier_2_major_primary": 174,
+    "tier_3_secondary": 195
+  },
+  "by_source": {
+    "internet_archive": 107,
+    "lane_b": 148,
+    "project_gutenberg": 309,
+    "standard_ebooks": 27
+  },
+  "inputs": [
+    "corpus/normalized/jsonl/gutenberg.deduped.jsonl",
+    "corpus/normalized/jsonl/standard_ebooks.deduped.jsonl",
+    "corpus/normalized/jsonl/internet_archive.deduped.jsonl",
+    "corpus/normalized/jsonl/ia_resolved.deduped.jsonl",
+    "corpus/normalized/jsonl/lane_b.deduped.jsonl"
+  ],
+  "output": "corpus/exports/training_manifest.jsonl",
+  "records": 591,
+  "skipped": {
+    "retrieval_only": 4
+  },
+  "source_weights": {
+    "internet_archive": 0.8,
+    "lane_b": 0.6,
+    "project_gutenberg": 1.0,
+    "standard_ebooks": 1.0
+  },
+  "tier_weights": {
+    "tier_1_canonical_primary": 1.0,
+    "tier_2_major_primary": 0.8,
+    "tier_3_secondary": 0.6,
+    "tier_4_ocr_expansion": 0.2
+  }
+}

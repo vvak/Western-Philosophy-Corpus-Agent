@@ -1,32 +1,43 @@
 {
   "by_author": {
+    "Alexander Pf\u00e4nder": 313767,
+    "Alfred North Whitehead and Bertrand Russell": 687790,
     "Anselm": 138147,
     "Aristotle": 204949,
     "Blaise Pascal": 205302,
     "Cicero": 102598,
+    "Ferdinand de Saussure": 407038,
     "Georg Wilhelm Friedrich Hegel": 530795,
     "Gottfried Wilhelm Leibniz": 254267,
     "Jeremy Bentham": 170284,
-    "Karl Marx": 548316,
-    "Plotinus": 87009,
-    "Thomas Aquinas": 255150
+    "Karl Marx": 1683710,
+    "Miguel de Unamuno": 494188,
+    "Plotinus": 463411,
+    "Thomas Aquinas": 255150,
+    "Wilhelm Dilthey": 235473
   },
   "by_language": {
-    "en": 2496817
+    "de": 549240,
+    "en": 4696403,
+    "es": 494188,
+    "fr": 407038
   },
   "by_period": {
-    "ancient": 394556,
+    "ancient": 770958,
+    "early_twentieth_public_domain_candidates": 2138256,
     "medieval": 393297,
-    "nineteenth_century": 1249395,
+    "nineteenth_century": 2384789,
     "renaissance_early_modern": 459569
   },
   "by_quality_tier": {
-    "tier_1_canonical_primary": 2496817
+    "tier_1_canonical_primary": 4696403,
+    "tier_2_major_primary": 714089,
+    "tier_3_secondary": 736377
   },
   "by_source": {
-    "internet_archive": 2496817
+    "internet_archive": 6146869
   },
-  "documents": 13,
+  "documents": 31,
   "tokenization": {
     "add_special_tokens": false,
     "backend": "huggingface_auto_processor",
@@ -43,44 +54,44 @@
   "top_10_works": [
     [
       "marx_capital",
-      548316
+      1683710
+    ],
+    [
+      "whitehead_russell_principia_mathematica_vol2",
+      687790
+    ],
+    [
+      "plotinus_enneads",
+      463411
+    ],
+    [
+      "hegel_phenomenology_spirit",
+      342189
+    ],
+    [
+      "aquinas_summa_contra_gentiles",
+      255150
+    ],
+    [
+      "saussure_memoire_voyelles",
+      254515
     ],
     [
       "leibniz_monadology",
       254267
     ],
     [
-      "pascal_pensees",
-      205302
+      "pfander_einfuhrung_psychologie",
+      229053
     ],
     [
-      "aristotle_metaphysics",
-      204949
+      "unamuno_agonia_cristianismo",
+      227039
     ],
     [
-      "hegel_phenomenology_spirit",
-      189563
-    ],
-    [
-      "hegel_philosophy_right",
-      188606
-    ],
-    [
-      "bentham_morals_legislation",
-      170284
-    ],
-    [
-      "hegel_phenomenology_spirit",
-      152626
-    ],
-    [
-      "aquinas_summa_contra_gentiles",
-      149832
-    ],
-    [
-      "anselm_proslogion",
-      138147
+      "dilthey_erlebnis_dichtung",
+      222071
     ]
   ],
-  "total_tokens": 2496817
+  "total_tokens": 6146869
 }

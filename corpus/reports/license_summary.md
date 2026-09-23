@@ -1,19 +1,31 @@
 # License Summary
 
-No corpus text has been ingested yet.
+- Version records: 508
+- Work records: 642
 
-The current project is in seed-manifest mode. All candidate works still require source-specific version records before acquisition.
+## Version License Status
 
-## Inclusion Rule
+- per_item_review_required: 2
+- public_domain: 146
+- public_domain_or_gutenberg_terms: 311
+- public_domain_us: 49
 
-Include only text versions with:
+## Version Sources
 
-- Source URL
-- Edition or translator metadata where applicable
-- Publication year or publication range
-- License/public-domain rationale
-- Quality tier
+- internet_archive: 148
+- open_library: 2
+- project_gutenberg: 321
+- standard_ebooks: 35
+- wikisource: 2
 
-## Default Public-Domain Assumption
+## Work Status
 
-As of 2026 in the United States, works published in 1930 or earlier are generally public domain. This does not automatically clear modern translations, modern introductions, editorial apparatus, or source-specific usage terms.
+- candidate_needs_source_resolution: 214
+- edge_case_needs_review: 12
+- no_pd_english_translation_available: 2
+- source_resolved: 414
+
+## Notes
+
+- Public-domain and source terms remain tracked at version level.
+- OCR-heavy records are now gated by `ocr_quality_scores.jsonl` during IA-resolved and Lane B normalization.

@@ -1,0 +1,689 @@
+{
+  "agent_efficiency_hint": "Read this status file first. Open only the relevant report/script for the next step; sample JSONL instead of reading full corpus files.",
+  "current_input_candidates": [
+    "corpus/normalized/jsonl/gutenberg.deduped.jsonl",
+    "corpus/normalized/jsonl/standard_ebooks.deduped.jsonl",
+    "corpus/normalized/jsonl/internet_archive.deduped.jsonl",
+    "corpus/normalized/jsonl/lane_b.deduped.jsonl",
+    "corpus/normalized/jsonl/ia_resolved.deduped.jsonl"
+  ],
+  "generated_at_utc": "2026-09-22T22:49:22.110208+00:00",
+  "manifests": {
+    "versions": {
+      "by_status": {
+        "<missing>": 508
+      },
+      "exists": true,
+      "path": "corpus/manifests/versions.jsonl",
+      "records": 508,
+      "valid_jsonl": true
+    },
+    "works": {
+      "by_status": {
+        "candidate_needs_source_resolution": 214,
+        "edge_case_needs_review": 12,
+        "no_pd_english_translation_available": 2,
+        "source_resolved": 414
+      },
+      "exists": true,
+      "path": "corpus/manifests/works.jsonl",
+      "records": 642,
+      "valid_jsonl": true
+    }
+  },
+  "next_step": {
+    "reason": "Known deduped sources have token summaries and segmented outputs.",
+    "step": "source_expansion_or_eval_dataset"
+  },
+  "project_root": "/Users/vlad/projects/western-philosophy-corpus",
+  "sources": {
+    "gutenberg": {
+      "deduped": {
+        "by_license_status": {
+          "public_domain_or_gutenberg_terms": 309
+        },
+        "by_quality_tier": {
+          "tier_1_canonical_primary": 103,
+          "tier_2_major_primary": 165,
+          "tier_3_secondary": 41
+        },
+        "bytes": 142283495,
+        "chars": 137386696,
+        "exists": true,
+        "path": "corpus/normalized/jsonl/gutenberg.deduped.jsonl",
+        "records": 309,
+        "valid_jsonl": true
+      },
+      "normalized": {
+        "by_license_status": {
+          "public_domain_or_gutenberg_terms": 310
+        },
+        "by_quality_tier": {
+          "tier_1_canonical_primary": 104,
+          "tier_2_major_primary": 165,
+          "tier_3_secondary": 41
+        },
+        "bytes": 142143204,
+        "chars": 137390059,
+        "exists": true,
+        "path": "corpus/normalized/jsonl/gutenberg.jsonl",
+        "records": 310,
+        "valid_jsonl": true
+      },
+      "raw": {
+        "bytes": 228940386,
+        "exists": true,
+        "files": 925,
+        "record_dirs": 310
+      },
+      "reports": {
+        "acquisition": true,
+        "dedup": true,
+        "normalization": true,
+        "segmentation": true,
+        "tokenization": true
+      },
+      "segmented": {
+        "by_license_status": {
+          "public_domain_or_gutenberg_terms": 309
+        },
+        "by_quality_tier": {
+          "tier_1_canonical_primary": 103,
+          "tier_2_major_primary": 165,
+          "tier_3_secondary": 41
+        },
+        "bytes": 142333862,
+        "chars": 137386696,
+        "exists": true,
+        "path": "corpus/normalized/jsonl/gutenberg.segmented.jsonl",
+        "records": 309,
+        "valid_jsonl": true
+      },
+      "token_counts": {
+        "bytes": 258261,
+        "exists": true,
+        "path": "corpus/reports/token_counts.jsonl"
+      },
+      "token_summary": {
+        "documents": 309,
+        "exists": true,
+        "path": "corpus/reports/token_counts_summary.json",
+        "tokenization": {
+          "add_special_tokens": false,
+          "backend": "huggingface_auto_processor",
+          "chat_template_applied": false,
+          "context_length": null,
+          "enable_thinking": null,
+          "model_id": "google/gemma-4-E2B-it",
+          "plain_text_tokenization": true,
+          "processor_revision": null,
+          "target_family": "gemma4",
+          "tokenizer": "huggingface_auto_processor:google/gemma-4-E2B-it",
+          "tokenizer_version": "5.5.3"
+        },
+        "top_10_works": [
+          [
+            "aquinas_summa_theologiae",
+            3083657
+          ],
+          [
+            "nietzsche_zarathustra",
+            870717
+          ],
+          [
+            "schopenhauer_world_will_representation",
+            728532
+          ],
+          [
+            "montaigne_essays",
+            726385
+          ],
+          [
+            "freud_interpretation_dreams",
+            680744
+          ],
+          [
+            "augustine_city_of_god",
+            668795
+          ],
+          [
+            "mill_logic",
+            533984
+          ],
+          [
+            "hume_treatise",
+            518331
+          ],
+          [
+            "plato_republic",
+            441349
+          ],
+          [
+            "tocqueville_democracy_america",
+            416104
+          ]
+        ],
+        "total_tokens": 32636281,
+        "valid_json": true
+      }
+    },
+    "ia_resolved": {
+      "deduped": {
+        "by_license_status": {
+          "public_domain": 80
+        },
+        "by_quality_tier": {
+          "tier_1_canonical_primary": 76,
+          "tier_4_ocr_expansion": 4
+        },
+        "bytes": 58513029,
+        "chars": 46505652,
+        "exists": true,
+        "path": "corpus/normalized/jsonl/ia_resolved.deduped.jsonl",
+        "records": 80,
+        "valid_jsonl": true
+      },
+      "normalized": {
+        "by_license_status": {
+          "public_domain": 80
+        },
+        "by_quality_tier": {
+          "tier_1_canonical_primary": 76,
+          "tier_4_ocr_expansion": 4
+        },
+        "bytes": 58513029,
+        "chars": 46505652,
+        "exists": true,
+        "path": "corpus/normalized/jsonl/ia_resolved.jsonl",
+        "records": 80,
+        "valid_jsonl": true
+      },
+      "raw": {
+        "bytes": 55581323,
+        "exists": true,
+        "files": 81,
+        "record_dirs": 0
+      },
+      "reports": {
+        "acquisition": true,
+        "dedup": true,
+        "normalization": true,
+        "segmentation": true,
+        "tokenization": true
+      },
+      "segmented": {
+        "by_license_status": {
+          "public_domain": 80
+        },
+        "by_quality_tier": {
+          "tier_1_canonical_primary": 76,
+          "tier_4_ocr_expansion": 4
+        },
+        "bytes": 50083154,
+        "chars": 46505652,
+        "exists": true,
+        "path": "corpus/normalized/jsonl/ia_resolved.segmented.jsonl",
+        "records": 80,
+        "valid_jsonl": true
+      },
+      "token_counts": {
+        "bytes": 65699,
+        "exists": true,
+        "path": "corpus/reports/ia_resolved_token_counts.jsonl"
+      },
+      "token_summary": {
+        "documents": 80,
+        "exists": true,
+        "path": "corpus/reports/ia_resolved_token_counts_summary.json",
+        "tokenization": {
+          "add_special_tokens": false,
+          "backend": "huggingface_auto_processor",
+          "chat_template_applied": false,
+          "context_length": null,
+          "enable_thinking": null,
+          "model_id": "google/gemma-4-E2B-it",
+          "plain_text_tokenization": true,
+          "processor_revision": null,
+          "target_family": "gemma4",
+          "tokenizer": "huggingface_auto_processor:google/gemma-4-E2B-it",
+          "tokenizer_version": "5.5.3"
+        },
+        "top_10_works": [
+          [
+            "xenophon_oeconomicus",
+            805958
+          ],
+          [
+            "aquinas_de_veritate",
+            771688
+          ],
+          [
+            "aquinas_de_ente_essentia",
+            661431
+          ],
+          [
+            "plutarch_moralia",
+            630124
+          ],
+          [
+            "cicero_de_re_publica",
+            581335
+          ],
+          [
+            "comte_system_positive_polity",
+            396482
+          ],
+          [
+            "porphyry_isagoge",
+            385107
+          ],
+          [
+            "spencer_principles_psychology",
+            377107
+          ],
+          [
+            "cicero_de_fato",
+            330708
+          ],
+          [
+            "boethius_de_institutione_musica",
+            322714
+          ]
+        ],
+        "total_tokens": 14594429,
+        "valid_json": true
+      }
+    },
+    "internet_archive": {
+      "deduped": {
+        "by_license_status": {
+          "public_domain": 31
+        },
+        "by_quality_tier": {
+          "tier_1_canonical_primary": 20,
+          "tier_2_major_primary": 6,
+          "tier_3_secondary": 5
+        },
+        "bytes": 23589892,
+        "chars": 22680202,
+        "exists": true,
+        "path": "corpus/normalized/jsonl/internet_archive.deduped.jsonl",
+        "records": 31,
+        "valid_jsonl": true
+      },
+      "normalized": {
+        "by_license_status": {
+          "public_domain": 31
+        },
+        "by_quality_tier": {
+          "tier_1_canonical_primary": 20,
+          "tier_2_major_primary": 6,
+          "tier_3_secondary": 5
+        },
+        "bytes": 23574399,
+        "chars": 22680202,
+        "exists": true,
+        "path": "corpus/normalized/jsonl/internet_archive.jsonl",
+        "records": 31,
+        "valid_jsonl": true
+      },
+      "raw": {
+        "bytes": 26544136,
+        "exists": true,
+        "files": 63,
+        "record_dirs": 31
+      },
+      "reports": {
+        "acquisition": true,
+        "dedup": true,
+        "normalization": false,
+        "segmentation": true,
+        "tokenization": true
+      },
+      "segmented": {
+        "by_license_status": {
+          "public_domain": 31
+        },
+        "by_quality_tier": {
+          "tier_1_canonical_primary": 20,
+          "tier_2_major_primary": 6,
+          "tier_3_secondary": 5
+        },
+        "bytes": 23594945,
+        "chars": 22680202,
+        "exists": true,
+        "path": "corpus/normalized/jsonl/internet_archive.segmented.jsonl",
+        "records": 31,
+        "valid_jsonl": true
+      },
+      "token_counts": {
+        "bytes": 27397,
+        "exists": true,
+        "path": "corpus/reports/internet_archive_token_counts.jsonl"
+      },
+      "token_summary": {
+        "documents": 31,
+        "exists": true,
+        "path": "corpus/reports/internet_archive_token_counts_summary.json",
+        "tokenization": {
+          "add_special_tokens": false,
+          "backend": "huggingface_auto_processor",
+          "chat_template_applied": false,
+          "context_length": null,
+          "enable_thinking": null,
+          "model_id": "google/gemma-4-E2B-it",
+          "plain_text_tokenization": true,
+          "processor_revision": null,
+          "target_family": "gemma4",
+          "tokenizer": "huggingface_auto_processor:google/gemma-4-E2B-it",
+          "tokenizer_version": "5.5.3"
+        },
+        "top_10_works": [
+          [
+            "marx_capital",
+            1683710
+          ],
+          [
+            "whitehead_russell_principia_mathematica_vol2",
+            687790
+          ],
+          [
+            "plotinus_enneads",
+            463411
+          ],
+          [
+            "hegel_phenomenology_spirit",
+            342189
+          ],
+          [
+            "aquinas_summa_contra_gentiles",
+            255150
+          ],
+          [
+            "saussure_memoire_voyelles",
+            254515
+          ],
+          [
+            "leibniz_monadology",
+            254267
+          ],
+          [
+            "pfander_einfuhrung_psychologie",
+            229053
+          ],
+          [
+            "unamuno_agonia_cristianismo",
+            227039
+          ],
+          [
+            "dilthey_erlebnis_dichtung",
+            222071
+          ]
+        ],
+        "total_tokens": 6146869,
+        "valid_json": true
+      }
+    },
+    "lane_b": {
+      "deduped": {
+        "by_license_status": {
+          "public_domain": 148
+        },
+        "by_quality_tier": {
+          "tier_3_secondary": 148
+        },
+        "bytes": 73749033,
+        "chars": 67724191,
+        "exists": true,
+        "path": "corpus/normalized/jsonl/lane_b.deduped.jsonl",
+        "records": 148,
+        "valid_jsonl": true
+      },
+      "normalized": {
+        "by_license_status": {
+          "public_domain": 148
+        },
+        "by_quality_tier": {
+          "tier_3_secondary": 148
+        },
+        "bytes": 73749033,
+        "chars": 67724191,
+        "exists": true,
+        "path": "corpus/normalized/jsonl/lane_b.jsonl",
+        "records": 148,
+        "valid_jsonl": true
+      },
+      "raw": {
+        "bytes": 173180126,
+        "exists": true,
+        "files": 443,
+        "record_dirs": 0
+      },
+      "reports": {
+        "acquisition": true,
+        "dedup": true,
+        "normalization": true,
+        "segmentation": true,
+        "tokenization": true
+      },
+      "segmented": {
+        "by_license_status": {
+          "public_domain": 148
+        },
+        "by_quality_tier": {
+          "tier_3_secondary": 148
+        },
+        "bytes": 70484333,
+        "chars": 67724191,
+        "exists": true,
+        "path": "corpus/normalized/jsonl/lane_b.segmented.jsonl",
+        "records": 148,
+        "valid_jsonl": true
+      },
+      "token_counts": {
+        "bytes": 152600,
+        "exists": true,
+        "path": "corpus/reports/lane_b_token_counts.jsonl"
+      },
+      "token_summary": {
+        "documents": 148,
+        "exists": true,
+        "path": "corpus/reports/lane_b_token_counts_summary.json",
+        "tokenization": {
+          "add_special_tokens": false,
+          "backend": "huggingface_auto_processor",
+          "chat_template_applied": false,
+          "context_length": null,
+          "enable_thinking": null,
+          "model_id": "google/gemma-4-E2B-it",
+          "plain_text_tokenization": true,
+          "processor_revision": null,
+          "target_family": "gemma4",
+          "tokenizer": "huggingface_auto_processor:google/gemma-4-E2B-it",
+          "tokenizer_version": "5.5.3"
+        },
+        "top_10_works": [
+          [
+            "augustine__a_commentary_on_the_new_code_of_the_cano",
+            1980039
+          ],
+          [
+            "spinoza__a_discourse_concerning_the_being_and_att",
+            758929
+          ],
+          [
+            "descartes__a_course_of_lectures_on_natural_philosop",
+            690205
+          ],
+          [
+            "plato__a_companion_to_platos_republic_for_engli",
+            474879
+          ],
+          [
+            "spinoza__a_treatise_partly_theological_and_partly",
+            449334
+          ],
+          [
+            "political_philosophy__the_new_natura_brevium_of_the_most_rever",
+            403887
+          ],
+          [
+            "kant__immanuel_kants_critique_of_pure_reason",
+            396951
+          ],
+          [
+            "aristotle__a_commentary_illustrating_the_poetic_of",
+            395004
+          ],
+          [
+            "stoicism__a_sketch_of_ancient_philosophy_from_thal",
+            392853
+          ],
+          [
+            "james__studies_of_nature._by_james-henry-bernar",
+            384202
+          ]
+        ],
+        "total_tokens": 20236252,
+        "valid_json": true
+      }
+    },
+    "standard_ebooks": {
+      "deduped": {
+        "by_license_status": {
+          "public_domain_us": 27
+        },
+        "by_quality_tier": {
+          "tier_1_canonical_primary": 23,
+          "tier_2_major_primary": 3,
+          "tier_3_secondary": 1
+        },
+        "bytes": 21322842,
+        "chars": 20691839,
+        "exists": true,
+        "path": "corpus/normalized/jsonl/standard_ebooks.deduped.jsonl",
+        "records": 27,
+        "valid_jsonl": true
+      },
+      "normalized": {
+        "by_license_status": {
+          "public_domain_us": 27
+        },
+        "by_quality_tier": {
+          "tier_1_canonical_primary": 23,
+          "tier_2_major_primary": 3,
+          "tier_3_secondary": 1
+        },
+        "bytes": 21309767,
+        "chars": 20691839,
+        "exists": true,
+        "path": "corpus/normalized/jsonl/standard_ebooks.jsonl",
+        "records": 27,
+        "valid_jsonl": true
+      },
+      "raw": {
+        "bytes": 20542381,
+        "exists": true,
+        "files": 55,
+        "record_dirs": 27
+      },
+      "reports": {
+        "acquisition": true,
+        "dedup": true,
+        "normalization": true,
+        "segmentation": true,
+        "tokenization": true
+      },
+      "segmented": {
+        "by_license_status": {
+          "public_domain_us": 27
+        },
+        "by_quality_tier": {
+          "tier_1_canonical_primary": 23,
+          "tier_2_major_primary": 3,
+          "tier_3_secondary": 1
+        },
+        "bytes": 21327243,
+        "chars": 20691839,
+        "exists": true,
+        "path": "corpus/normalized/jsonl/standard_ebooks.segmented.jsonl",
+        "records": 27,
+        "valid_jsonl": true
+      },
+      "token_counts": {
+        "bytes": 21766,
+        "exists": true,
+        "path": "corpus/reports/standard_ebooks_token_counts.jsonl"
+      },
+      "token_summary": {
+        "documents": 27,
+        "exists": true,
+        "path": "corpus/reports/standard_ebooks_token_counts_summary.json",
+        "tokenization": {
+          "add_special_tokens": false,
+          "backend": "huggingface_auto_processor",
+          "chat_template_applied": false,
+          "context_length": null,
+          "enable_thinking": null,
+          "model_id": "google/gemma-4-E2B-it",
+          "plain_text_tokenization": true,
+          "processor_revision": null,
+          "target_family": "gemma4",
+          "tokenizer": "huggingface_auto_processor:google/gemma-4-E2B-it",
+          "tokenizer_version": "5.5.3"
+        },
+        "top_10_works": [
+          [
+            "plato_dialogues",
+            1623059
+          ],
+          [
+            "augustine_city_of_god",
+            586661
+          ],
+          [
+            "hobbes_leviathan",
+            261210
+          ],
+          [
+            "william_james_varieties_religious_experience",
+            236648
+          ],
+          [
+            "smith_moral_sentiments",
+            194055
+          ],
+          [
+            "dewey_democracy_education",
+            159107
+          ],
+          [
+            "nietzsche_zarathustra",
+            136370
+          ],
+          [
+            "aristotle_nicomachean_ethics",
+            129845
+          ],
+          [
+            "locke_two_treatises",
+            125781
+          ],
+          [
+            "moore_principia_ethica",
+            110928
+          ]
+        ],
+        "total_tokens": 4633200,
+        "valid_json": true
+      }
+    }
+  },
+  "status_schema": "western-philosophy-corpus-status-v1",
+  "totals": {
+    "current_work_records": 642,
+    "deduped_documents": 595,
+    "target_work_records": 500,
+    "tokens_from_available_summaries": 78247031
+  }
+}

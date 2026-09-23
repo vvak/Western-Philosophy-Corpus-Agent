@@ -1,0 +1,191 @@
+{
+  "by_author": {
+    "Adam Smith": 345453,
+    "Alexander Pf\u00e4nder": 313767,
+    "Alexis de Tocqueville": 557665,
+    "Alfred North Whitehead": 626446,
+    "Alfred North Whitehead and Bertrand Russell": 688767,
+    "Anselm": 138147,
+    "Aquinas": 253439,
+    "Aristotle": 2562196,
+    "Arthur Schopenhauer": 941612,
+    "Auguste Comte": 772092,
+    "Augustine": 4434229,
+    "Baruch Spinoza": 269641,
+    "Benedetto Croce": 491641,
+    "Berkeley": 182155,
+    "Bertrand Russell": 1667092,
+    "Blaise Pascal": 415127,
+    "Boethius": 442842,
+    "Bonaventure": 160256,
+    "Charles Sanders Peirce": 132747,
+    "Cicero": 1498202,
+    "David Hume": 726116,
+    "Descartes": 3106371,
+    "Empedocles": 43211,
+    "Epictetus": 96553,
+    "Erasmus": 392109,
+    "Ernst Cassirer": 311491,
+    "Ferdinand de Saussure": 407038,
+    "Francis Bacon": 605290,
+    "Franz Brentano": 92444,
+    "Friedrich Engels": 284747,
+    "Friedrich Nietzsche": 3930281,
+    "G. E. Moore": 397960,
+    "Galileo Galilei": 149436,
+    "Georg Wilhelm Friedrich Hegel": 1110544,
+    "George Berkeley": 359224,
+    "George Santayana": 1207338,
+    "German Idealism": 267390,
+    "Giovanni Gentile": 131767,
+    "Gottfried Wilhelm Leibniz": 506864,
+    "Hegel": 591722,
+    "Henri Bergson": 496015,
+    "Henry David Thoreau": 184197,
+    "Heraclitus": 78940,
+    "Herbert Spencer": 933082,
+    "Hume": 1867804,
+    "Ibn Gabirol": 72586,
+    "Immanuel Kant": 530290,
+    "Isidore of Seville": 1401,
+    "Jacques Maritain": 63033,
+    "James": 1411986,
+    "Jean-Jacques Rousseau": 547436,
+    "Jeremy Bentham": 414511,
+    "Johann Gottlieb Fichte": 540987,
+    "John Dewey": 2005355,
+    "John Dewey and Evelyn Dewey": 85517,
+    "John Dewey and James Hayden Tufts": 288055,
+    "John Locke": 743377,
+    "John Stuart Mill": 1123227,
+    "Jose Ortega y Gasset": 87447,
+    "Kant": 821960,
+    "Karl Marx": 1874713,
+    "Karl Marx and Friedrich Engels": 52942,
+    "Lev Shestov": 128834,
+    "Lorenzo Valla": 105240,
+    "Lucretius": 113996,
+    "Ludwig Feuerbach": 209127,
+    "Ludwig Wittgenstein": 127735,
+    "Maimonides": 478366,
+    "Marcus Aurelius": 213573,
+    "Martin Luther": 446475,
+    "Marx": 63831,
+    "Mary Wollstonecraft": 220138,
+    "Max Scheler": 148197,
+    "Michel de Montaigne": 726385,
+    "Miguel de Unamuno": 1638069,
+    "Mill": 965853,
+    "Moritz Schlick": 41962,
+    "Neoplatonism": 281263,
+    "Niccolo Machiavelli": 455492,
+    "Nietzsche": 67178,
+    "Peirce": 637487,
+    "Plato": 4359554,
+    "Plotinus": 463411,
+    "Plutarch": 630124,
+    "Political Philosophy": 3097571,
+    "Porphyry": 385107,
+    "Proclus": 288019,
+    "Pseudo-Dionysius": 340230,
+    "Ralph Waldo Emerson": 528122,
+    "Ramon Llull": 3725,
+    "Rene Descartes": 109403,
+    "Rudolf Steiner": 16219,
+    "Scholasticism": 192514,
+    "Seneca": 526155,
+    "Sigmund Freud": 2828842,
+    "Skepticism": 343572,
+    "Soren Kierkegaard": 227337,
+    "Spinoza": 1970020,
+    "Stoicism": 392853,
+    "Theophrastus": 21470,
+    "Thomas Aquinas": 4771926,
+    "Thomas Hobbes": 855309,
+    "Thomas More": 217942,
+    "Voltaire": 217533,
+    "Wilhelm Dilthey": 235473,
+    "William James": 635789,
+    "Xenophon": 1348505
+  },
+  "by_language": {
+    "de": 2778838,
+    "en": 72161186,
+    "en; la": 101544,
+    "es": 1473601,
+    "fi": 500488,
+    "fr": 712051,
+    "hu": 184491
+  },
+  "by_period": {
+    "null": 77912199
+  },
+  "by_quality_tier": {
+    "tier_1_canonical_primary": 38344744,
+    "tier_2_major_primary": 16035691,
+    "tier_3_secondary": 23531764
+  },
+  "by_source": {
+    "internet_archive": 20406466,
+    "lane_b": 20236252,
+    "project_gutenberg": 32636281,
+    "standard_ebooks": 4633200
+  },
+  "documents": 591,
+  "tokenization": {
+    "add_special_tokens": false,
+    "backend": "huggingface_auto_processor",
+    "chat_template_applied": false,
+    "context_length": null,
+    "enable_thinking": null,
+    "model_id": "google/gemma-4-E2B-it",
+    "plain_text_tokenization": true,
+    "processor_revision": null,
+    "target_family": "gemma4",
+    "tokenizer": "huggingface_auto_processor:google/gemma-4-E2B-it",
+    "tokenizer_version": "5.5.3"
+  },
+  "top_10_works": [
+    [
+      "aquinas_summa_theologiae",
+      3083657
+    ],
+    [
+      "augustine__a_commentary_on_the_new_code_of_the_cano",
+      1980039
+    ],
+    [
+      "marx_capital",
+      1683710
+    ],
+    [
+      "plato_dialogues",
+      1623059
+    ],
+    [
+      "augustine_city_of_god",
+      1255456
+    ],
+    [
+      "nietzsche_zarathustra",
+      1007087
+    ],
+    [
+      "xenophon_oeconomicus",
+      805958
+    ],
+    [
+      "aquinas_de_veritate",
+      771688
+    ],
+    [
+      "spinoza__a_discourse_concerning_the_being_and_att",
+      758929
+    ],
+    [
+      "schopenhauer_world_will_representation",
+      728532
+    ]
+  ],
+  "total_tokens": 77912199
+}

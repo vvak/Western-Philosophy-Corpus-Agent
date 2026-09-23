@@ -1,0 +1,21 @@
+{
+  "built_at_utc": "2026-09-22T22:49:17.231178+00:00",
+  "by_quality_tier": {
+    "tier_1_canonical_primary": 222,
+    "tier_2_major_primary": 174,
+    "tier_3_secondary": 195
+  },
+  "by_source": {
+    "internet_archive": 107,
+    "lane_b": 148,
+    "project_gutenberg": 309,
+    "standard_ebooks": 27
+  },
+  "character_count": 294166277,
+  "manifest": "corpus/exports/training_manifest.jsonl",
+  "manifest_records": 591,
+  "missing_doc_ids": [],
+  "missing_text_records": 0,
+  "output": "corpus/exports/training_text.jsonl",
+  "written_records": 591
+}
